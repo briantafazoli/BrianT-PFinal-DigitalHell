@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BrianT-PFinal-DigitalHell - Standalone Plugin", "BrianT-PFinal-DigitalHell_StandalonePlugin.vcxproj", "{7CF4A9EB-F4AB-D086-274D-37A4E0D4390C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{58B389D1-715F-F019-A291-A2CDC5A0F320} = {58B389D1-715F-F019-A291-A2CDC5A0F320}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BrianT-PFinal-DigitalHell - VST3", "BrianT-PFinal-DigitalHell_VST3.vcxproj", "{6CC6FD57-B460-AA75-836F-651D901E3491}"
+	ProjectSection(ProjectDependencies) = postProject
+		{58B389D1-715F-F019-A291-A2CDC5A0F320} = {58B389D1-715F-F019-A291-A2CDC5A0F320}
+		{7482C14F-D7EA-9E68-B336-FAD1B7D20692} = {7482C14F-D7EA-9E68-B336-FAD1B7D20692}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BrianT-PFinal-DigitalHell - Shared Code", "BrianT-PFinal-DigitalHell_SharedCode.vcxproj", "{58B389D1-715F-F019-A291-A2CDC5A0F320}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BrianT-PFinal-DigitalHell - VST3 Manifest Helper", "BrianT-PFinal-DigitalHell_VST3ManifestHelper.vcxproj", "{7482C14F-D7EA-9E68-B336-FAD1B7D20692}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CC6FD57-B460-AA75-836F-651D901E3491}.Debug|x64.ActiveCfg = Debug|x64
+		{6CC6FD57-B460-AA75-836F-651D901E3491}.Debug|x64.Build.0 = Debug|x64
+		{6CC6FD57-B460-AA75-836F-651D901E3491}.Release|x64.ActiveCfg = Release|x64
+		{6CC6FD57-B460-AA75-836F-651D901E3491}.Release|x64.Build.0 = Release|x64
+		{7CF4A9EB-F4AB-D086-274D-37A4E0D4390C}.Debug|x64.ActiveCfg = Debug|x64
+		{7CF4A9EB-F4AB-D086-274D-37A4E0D4390C}.Debug|x64.Build.0 = Debug|x64
+		{7CF4A9EB-F4AB-D086-274D-37A4E0D4390C}.Release|x64.ActiveCfg = Release|x64
+		{7CF4A9EB-F4AB-D086-274D-37A4E0D4390C}.Release|x64.Build.0 = Release|x64
+		{58B389D1-715F-F019-A291-A2CDC5A0F320}.Debug|x64.ActiveCfg = Debug|x64
+		{58B389D1-715F-F019-A291-A2CDC5A0F320}.Debug|x64.Build.0 = Debug|x64
+		{58B389D1-715F-F019-A291-A2CDC5A0F320}.Release|x64.ActiveCfg = Release|x64
+		{58B389D1-715F-F019-A291-A2CDC5A0F320}.Release|x64.Build.0 = Release|x64
+		{7482C14F-D7EA-9E68-B336-FAD1B7D20692}.Debug|x64.ActiveCfg = Debug|x64
+		{7482C14F-D7EA-9E68-B336-FAD1B7D20692}.Debug|x64.Build.0 = Debug|x64
+		{7482C14F-D7EA-9E68-B336-FAD1B7D20692}.Release|x64.ActiveCfg = Release|x64
+		{7482C14F-D7EA-9E68-B336-FAD1B7D20692}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
